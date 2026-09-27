@@ -714,39 +714,6 @@ Keyword Search → 0.3
 
 ---
 
-# 🛡️ Knowledge Boundary
-
-The application is designed around the available project knowledge base.
-
-When relevant information is not found, the retrieval layer can return:
-
-```text
-NO_RELEVANT_INFORMATION
-```
-
-For example, a question about information that does not exist in the indexed documents should not be answered using unrelated knowledge from the model.
-
-This provides a basic mechanism for reducing unsupported responses.
-
----
-
-
-
-
-```
-```
-
-
-
-```
-```
-
-```
-
-```
-
----
-
 # 🛠️ Technologies Used
 
 | Category | Technology |
@@ -852,7 +819,6 @@ The project `.gitignore` excludes the `.env` file.
 
 ---
 
-
 # 🧑‍💻 Running the Agent Directly
 
 The agent can also be accessed programmatically through:
@@ -901,14 +867,6 @@ CodeAgent
 
 ---
 
-
-
-
----
-```
-
----
-
 ## 📊 Retrieval Evaluation
 
 The retrieval system can be evaluated using metrics such as:
@@ -921,7 +879,6 @@ The retrieval system can be evaluated using metrics such as:
 - Grounding quality
 
 ---
-
 
 # 🎯 Project Objective
 
