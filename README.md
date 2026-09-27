@@ -1,4 +1,4 @@
-# 🤖 Agentic AI RAG Assistant
+# Agentic AI RAG Assistant
 
 An **Agentic AI and Generative AI application** that uses **Retrieval-Augmented Generation (RAG)** to answer questions from a document-based knowledge base.
 
