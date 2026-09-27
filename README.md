@@ -730,55 +730,20 @@ This provides a basic mechanism for reducing unsupported responses.
 
 ---
 
-# 🧪 Example Queries
 
-### RAG
 
-```text
-What is Retrieval-Augmented Generation?
+
+```
 ```
 
-### Embeddings
 
-```text
-What are embeddings?
+
+```
 ```
 
-### Vector Search
-
-```text
-How does vector search work?
 ```
 
-### AI Agents
-
-```text
-What are AI agents?
 ```
-
-### Large Language Models
-
-```text
-What is a Large Language Model?
-```
-
----
-
-# 🧪 Out-of-Knowledge-Base Example
-
-Example:
-
-```text
-Who won the FIFA World Cup in 1998?
-```
-
-If the answer is not contained in the project's indexed documents, the retrieval system can return:
-
-```text
-NO_RELEVANT_INFORMATION
-```
-
-This demonstrates the system's knowledge-base boundary.
 
 ---
 
@@ -887,17 +852,6 @@ The project `.gitignore` excludes the `.env` file.
 
 ---
 
-# ▶️ Running the Application
-
-If using the Streamlit interface:
-
-```bash
-streamlit run app.py
-```
-
-The terminal will provide the local application URL.
-
----
 
 # 🧑‍💻 Running the Agent Directly
 
@@ -947,75 +901,8 @@ CodeAgent
 
 ---
 
-# 🧩 Component Analogy
 
-The architecture can be understood using a simple analogy:
 
-```text
-CodeAgent
-    ↓
-Manager / Orchestrator
-
-Qwen
-    ↓
-Brain
-
-Knowledge Base
-    ↓
-Library
-
-Retriever
-    ↓
-Librarian / Search Engine
-
-Knowledge Base Tool
-    ↓
-Doorway to the Library
-```
-
----
-
-# 📊 Current Project Capabilities
-
-The current implementation includes:
-
-- PDF document knowledge base
-- Document loading
-- Text extraction
-- Text chunking
-- Sentence Transformer embeddings
-- 384-dimensional embeddings
-- Embedding caching
-- FAISS vector search
-- BM25 keyword search
-- Hybrid retrieval
-- Weighted retrieval
-- Custom knowledge-base tool
-- Smolagents CodeAgent
-- Qwen2.5-1.5B-Instruct
-- Hugging Face Transformers
-- RAG question answering
-- No-relevant-information handling
-- Web interface
-- GitHub repository
-
----
-
-# ⚡ Performance
-
-The current application performs local LLM inference.
-
-Because the language model is executed locally, response time depends on the available hardware.
-
-The current setup can be further optimized through:
-
-- GPU inference
-- Quantized models
-- Smaller models
-- Faster inference engines
-- Response caching
-- Retrieval optimization
-- Embedding caching
 
 ---
 ```
