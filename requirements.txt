@@ -1,0 +1,18 @@
+# Retrieval pipeline
+langchain-text-splitters
+langchain-community
+pypdf
+sentence-transformers
+faiss-cpu
+rank-bm25
+numpy
+
+# Agent / model
+transformers
+smolagents
+python-dotenv
+
+# API backend (frontend/index.html talks to this)
+fastapi
+uvicorn[standard]
+python-multipart
